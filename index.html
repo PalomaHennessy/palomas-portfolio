@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Paloma">
 
-    <title>About Me</title>
+    <title>Paloma Hennessy</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,6 +58,9 @@
                     <li>
                         <a href="about.html">About</a>
                     </li>
+                 <!--    <li>
+                        <a href="http://pasadenatoportugal.blogspot.com/">Blog</a>
+                    </li> -->
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
@@ -72,22 +75,47 @@
 
         <div class="row">
             <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">About Me
-                       
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/seattle.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/hoptalk.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/animalgame.png" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Welcome to</small>
                     </h2>
-                    <hr>
+                    <h1 class="brand-name">My Portfolio</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By
+                            <strong>Paloma Hennessy</strong>
+                        </small>
+                    </h2>
                 </div>
-                <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/palomaheadshotbw.jpg" alt="Paloma">
-                </div>
-                <div class="col-md-6">
-                    <p>Hi! My name is Paloma. I am a web developer based in Seattle, Washington.</p>
-                    <p>I have a passion for creativity, the arts, environment and technology that will help in the growth of these fields. I believe that creating an interface that is both aesthetically pleasing and functional is of the utmost importance.</p>
-                    <p>In my spare time you can probably find me running, watching Parks and Recreation or enjoying a donut.
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
 
@@ -95,43 +123,35 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Recent 
-                        <strong>Projects</strong>
+                    <h2 class="intro-text text-center">Build a website
+                        <strong>worth visiting</strong>
                     </h2>
                     <hr>
+                    <img class="img-responsive img-border img-left" src="img/favorites.png" width="300px" height="250px" alt="">
+                    <hr class="visible-xs">
+                    <p>Welcome! </br> Currently my portfolio consists of works that were created over a 6 week span.  Starting from learning how to use HTML, CSS and a dash of JavaScript in a simplistic version of Tic-Tac-Toe. To creating my first full stack website using more complex languages such as Node.js and Ruby. 
+                     <p>Much like an artist, I can never say that my work is done. I hope to expand on these projects and create more cool apps in the near future! There is always room for growth and opportunities for learning!</p> 
                 </div>
-                <div class="col-sm-4 text-center">
-                    <a href="http://guessthatanimal.bitballoon.com">
-                    <img class="img-responsive" src="img/animalgame.png"  alt="Animal Game">
-                    <h3>Guess That Animal!
-                        <small></small>
-                    </h3>
-                    </a>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <a href="basictictactoe.bitballoon.com">
-                    <img class="img-responsive" src="img/tictactoe.png" alt="Tic-Tac-Toe">
-                    <h3>Tic-Tac-Toe
-                        <small></small>
-                    </h3>
-                    </a>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <a href='https://hoptalk.herokuapp.com/'>
-                    <img class="img-responsive" src="img/hoptalk.png" alt="hop-talk">
-                    <h3>Hop Talk
-                        <small></small>
-                    </h3>
-                    </a>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
 
-    </div>
+       <!--  <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Beautiful boxes
+                        <strong>to showcase your content</strong>
+                    </h2>
+                    <hr>
+                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
     <!-- /.container -->
 
-  
     <footer>
         <div class="container">
             <div class="row">
@@ -140,7 +160,7 @@
                     <a href="https://twitter.com/palomah213">
                     <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
                     </a>
-                    <a href="https://plus.google.com/108993417273422892810/posts">
+                     <a href="https://plus.google.com/108993417273422892810/posts">
                     <img title="GooglePlus" alt="GooglePlus" src="https://socialmediawidgets.files.wordpress.com/2014/03/14_google.png" width="35" height="35" />
                     </a>
                     <a href="https://www.facebook.com/public/Paloma-Hennessy">
@@ -163,6 +183,13 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 
