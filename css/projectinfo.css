@@ -1,0 +1,104 @@
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	color: white;
+}
+
+h3 {
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+#prodheader{
+	text-align: center;
+	padding-top: 30px;
+}
+
+/*project info*/
+.row {
+	padding: 60px;
+	margin-top: 20px;
+	background-color: #2E2E2E;
+}
+
+.img-responsive:hover {
+	opacity: 0.4;
+}
+
+
+li{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 16px;
+	font-weight: 300px;
+	line-height: 1.4;
+	/*color: white;*/
+}
+
+.btn {
+	border-radius: 0px;
+	font-family: "Source Sans Pro", sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 30px;
+}
+
+
+/*footer*/
+.contact {
+
+	height: 100px;
+}
+
+.fa {
+    color: black;
+}
+
+a {
+    color: #29A9D4;
+}
+
+hr.small {
+    max-width: 100px;
+}
+
+#footer {
+	margin-top: 40px;
+}
+
+/*responsive*/ 
+
+/*Tablet*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1200px) {
+	.lead {
+		padding-top: 0px;
+	}
+
+	h3 {
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	}
+
+}
+
+
+/*phone*/
+@media screen and (max-width: 768px) {
+	.lead {
+		padding-top: 0px;
+	}
+
+	.row {
+		padding: 45px;
+	}
+
+	.btn {
+		margin-bottom: 20px;
+	}
+
+	h3 {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	}
+
+}
