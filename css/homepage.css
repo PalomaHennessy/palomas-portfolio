@@ -203,6 +203,9 @@ hr.small {
     color: white;
 }
 
+h2 {
+    text-align: center;
+}
 .portfolio-item {
     margin-bottom: 30px;
 }

@@ -121,3 +121,12 @@ hr.small {
 .carousel-control.right {
 	background-image: linear-gradient(to left, rgba(0,0,0,0.3) 0, rgba(0,0,0,.0001) 100%);
 }
+
+.carousel-control .icon-next {
+	color: #5F6062;
+}
+.carousel-control .icon-prev {
+	color: #5F6062;
+}
+
+
