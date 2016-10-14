@@ -64,6 +64,20 @@ hr.small {
 	margin-top: 40px;
 }
 
+/*carosel*/ 
+#carousel-example-generic {
+	width: 800px;
+}
+
+.carousel-indicators li {
+	border: .5px solid #454545;
+	background-color: #454545;
+}
+
+.carousel-caption {
+	color: #464646;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
 /*responsive*/ 
 
 /*Tablet*/
@@ -77,6 +91,13 @@ hr.small {
 	margin-top: 20px;
 	margin-bottom: 10px;
 	}
+
+
+	#carousel-example-generic {
+		width: 700px;
+		margin: 0px;
+	}
+
 
 }
 
@@ -103,17 +124,6 @@ hr.small {
 
 }
 
-/*carosel*/ 
-
-.carousel-indicators li {
-	border: .5px solid #454545;
-	background-color: #454545;
-}
-
-.carousel-caption {
-	color: #464646;
-	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
-}
 
 .carousel-control.left {
 	background-image: linear-gradient(to right, rgba(0,0,0,0.3) 0, rgba(0,0,0,.0001) 100%);
