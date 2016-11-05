@@ -78,6 +78,23 @@ hr.small {
 	color: #464646;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
+.carousel-control.left {
+	background-image: linear-gradient(to right, rgba(0,0,0,0.3) 0, rgba(0,0,0,.0001) 100%);
+}
+.carousel-control.right {
+	background-image: linear-gradient(to left, rgba(0,0,0,0.3) 0, rgba(0,0,0,.0001) 100%);
+}
+
+.carousel-control .icon-next {
+	color: #5F6062;
+}
+.carousel-control .icon-prev {
+	color: #5F6062;
+}
+
+
+
+
 /*responsive*/ 
 
 /*Tablet*/
@@ -104,6 +121,11 @@ hr.small {
 
 /*phone*/
 @media screen and (max-width: 768px) {
+
+	#carousel-example-generic {
+	width: 300px;
+	}
+	
 	.lead {
 		padding-top: 0px;
 	}
@@ -121,22 +143,7 @@ hr.small {
 	margin-top: 20px;
 	margin-bottom: 10px;
 	}
-
 }
 
-
-.carousel-control.left {
-	background-image: linear-gradient(to right, rgba(0,0,0,0.3) 0, rgba(0,0,0,.0001) 100%);
-}
-.carousel-control.right {
-	background-image: linear-gradient(to left, rgba(0,0,0,0.3) 0, rgba(0,0,0,.0001) 100%);
-}
-
-.carousel-control .icon-next {
-	color: #5F6062;
-}
-.carousel-control .icon-prev {
-	color: #5F6062;
-}
 
 
